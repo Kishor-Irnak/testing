@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Clothing Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Simple Clothing Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="products">
+            <h2>Featured Products</h2>
+            <div class="product" onclick="showAlert('T-Shirt')">
+                <img src="https://via.placeholder.com/150" alt="T-Shirt">
+                <h3>T-Shirt</h3>
+                <p>$19.99</p>
+            </div>
+            <div class="product" onclick="showAlert('Jeans')">
+                <img src="https://via.placeholder.com/150" alt="Jeans">
+                <h3>Jeans</h3>
+                <p>$39.99</p>
+            </div>
+            <div class="product" onclick="showAlert('Jacket')">
+                <img src="https://via.placeholder.com/150" alt="Jacket">
+                <h3>Jacket</h3>
+                <p>$59.99</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Simple Clothing Store</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
